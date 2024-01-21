@@ -96,9 +96,11 @@ df_c8.describe()
 
 # %%
 sns.boxplot(x='ESTACIO', y="Mitjana_diaria", data=df_c8)
-plt.show()
+# plt.show()
 
+st.pyplot(plt.gcf())
 
+"""
 # %% [markdown]
 # Estudi de les mesures amb valors màxims
 
@@ -118,8 +120,14 @@ plt.plot(xpoints, ypoints)
 plt.xlabel("dia del mes")
 plt.ylabel("mesura del contaminant")
 plt.title("Variació del contaminant segons el dia del mes")
-plt.show()
-"""
+
+
+# reqwrite this due to streamlit 
+# plt.show()
+# with this code 
+
+
+
 fig = plt.figure()
 """
 
