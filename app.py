@@ -9,7 +9,7 @@ st.write("""
 """)
 
 #df = pd.read_csv('2023_10_Aire_BCN.csv')  #dades del mes d'octubre
-csv_url= "https://github.com/jordirlatgit/streamlitdemo/blob/main/2023_11_Aire_BCN.csv"
+csv_url = "https://github.com/jordirlatgit/streamlitdemo/blob/main/2023_11_Aire_BCN.csv"
 df = pd.read_csv(csv_url)
 #df_2 = pd.read_csv('2023_12_Aire_BCN.csv')
 
